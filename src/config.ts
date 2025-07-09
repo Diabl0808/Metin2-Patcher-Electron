@@ -1,7 +1,7 @@
-export const patchlistUrl = 'https://url/files.json'
-export const patchlistFolder = 'https://url/files/'
+export const patchlistUrl = 'http://149.102.152.84/patch/files.json'
+export const patchlistFolder = 'http://149.102.152.84/patch/files/'
 
-export const enableSlider = true //if false the slider will be disabled
+export const enableSlider = false //if false the slider will be disabled
 
 //if enableSlider is false the value of this variables is optional
 export const patchSliderUrl = 'https://url/slider.json'
@@ -17,10 +17,10 @@ export const patchSliderImages = 'http://localhost:81/electron/slider/'
  */
 
 export const enableDiscordButton = true //if false the button will not be displayed.
-export const discordUrl = 'https://discord.gg/invite'
+export const discordUrl = 'https://discord.gg/kRapzeCZTr'
 
-export const serverName = 'Karbust'
-export const binaryName = 'Metin2Debug.exe'
+export const serverName = 'Olympo2'
+export const binaryName = 'metin2client.exe'
 export const configName = 'config.exe'
 export const launchParameters = ['--something']
 
